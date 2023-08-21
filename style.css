@@ -1,0 +1,68 @@
+
+*{ 
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Merriweather', serif;
+}
+.double{
+    padding: 3px 7px;
+    border: 1px solid #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background-color: #fff;
+}
+.double:hover{
+    border: 2px solid rgba(255, 200, 0, 0.9);
+}
+.test{
+    border: none;
+    background-color: #fff;
+}
+.test:focus{
+    outline: none;
+}
+.navbar .navbar-brand .img-fluid{
+width:100%;
+}
+.navbar .navbar-brand{
+ width: 120px; 
+ }
+ .navbar .nav-link:hover{
+ color: rgba(255, 200, 0, 0.9);
+}
+.navbar i:hover{
+ color: rgba(255, 200, 0, 0.9);
+}
+ .navbar .icon ul li{
+list-style: none;
+ }
+.home_wrapper{ 
+background-image: url(images/home3-slide3.webp);
+background-size: cover;
+height: 600px;
+} 
+.about_wrapper .card img{
+width: 425px;
+height: 300px;
+border-radius: 10px;
+}
+
+.about_wrapper .card{
+border-radius: 10px;
+transition: 0.5s;
+cursor: pointer;
+}
+.about_wrapper .card:hover{
+transform: translateY(-10px);
+}
+.menu_wrapper .img-fluid{
+width:100rem;
+height: 30rem;
+}
+.texto{
+top: 190px;
+left: 160px;
+}
