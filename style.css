@@ -5,7 +5,8 @@ margin: 0;
 box-sizing: border-box;
 font-family: 'Merriweather', serif;
 }
-.double{
+ /*--------------------------------------navbar--------------------- */
+ .navbar .double{
     padding: 3px 7px;
     border: 1px solid #444;
     display: flex;
@@ -14,21 +15,19 @@ font-family: 'Merriweather', serif;
     border-radius: 7px;
     background-color: #fff;
 }
-.double:hover{
+.navbar .double:hover{
     border: 2px solid rgba(255, 200, 0, 0.9);
 }
-.test{
+.navbar .test{
     border: none;
     background-color: #fff;
 }
-.test:focus{
+.navbar .test:focus{
     outline: none;
 }
-.navbar .navbar-brand .img-fluid{
-width:100%;
-}
+
 .navbar .navbar-brand{
- width: 120px; 
+ width:10%; 
  }
  .navbar .nav-link:hover{
  color: rgba(255, 200, 0, 0.9);
@@ -39,30 +38,113 @@ width:100%;
  .navbar .icon ul li{
 list-style: none;
  }
+ /*----------------------------fin-----------navbar--------------------- */
+  /*---------------------------------section--home--------------------- */
 .home_wrapper{ 
-background-image: url(images/home3-slide3.webp);
+background: url(images/home3-slide3.webp) center;
 background-size: cover;
+background-repeat: no-repeat;
 height: 600px;
-} 
-.about_wrapper .card img{
+
+}
+  /*------------------------fin---------section--home--------------------- */ 
+   /*---------------------------------section--about--------------------- */
+.about_wrapper .text-center  img{
 width: 425px;
 height: 300px;
 border-radius: 10px;
-}
+}  
 
-.about_wrapper .card{
+.about_wrapper .text-center  img{
 border-radius: 10px;
 transition: 0.5s;
 cursor: pointer;
 }
-.about_wrapper .card:hover{
+.about_wrapper .text-center  img:hover{
 transform: translateY(-10px);
 }
+  /*---------------------------fin------section--about--------------------- */
+   /*---------------------------------section--menu--------------------- */
 .menu_wrapper .img-fluid{
 width:100rem;
 height: 30rem;
 }
-.texto{
-top: 190px;
-left: 160px;
+ /*--------------------------fin-------section--menu--------------------- */
+  /*---------------------------------section--product--------------------- */
+.product_wrapper .parent {
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(8, 1fr);
+grid-column-gap: 15px;
+grid-row-gap: 15px;
+}
+        
+.div1 { 
+    grid-area: 1 / 1 / 3 / 3; 
+}
+.div2 { 
+    grid-area: 1 / 3 / 4 / 5; 
+}
+.div3 { 
+    grid-area: 3 / 1 / 5 / 2; 
+}
+.div4 { 
+    grid-area: 3 / 2 / 5 / 3; 
+}
+.div5 { 
+    grid-area: 5 / 1 / 9 / 3; 
+}
+.div6 { 
+    grid-area: 4 / 3 / 7 / 5; 
+}
+.div7 { 
+    grid-area: 7 / 3 / 9 / 4; 
+}
+.div8 { 
+    grid-area: 7 / 4 / 9 / 5; 
+}
+.div9 { 
+    grid-area: 1 / 5 / 3 / 7; 
+}
+.div10 { 
+    grid-area: 3 / 5 / 5 / 7; 
+}
+.div11 { 
+    grid-area: 5 / 5 / 9 / 7; 
+}
+
+.parent img{
+width: 100%;
+height: 100%;
+}
+
+.product_wrapper .parent img{
+border-radius: 10px;
+transition: 0.5s;
+cursor: pointer;
+}
+.product_wrapper .parent  img:hover{
+transform: translateY(-10px);
+}
+ /*--------------------------fin-------section-product--------------------- */
+  /*---------------------------------section--connexion--inscription--------------------- */
+ .login-register{
+background: url(images/10.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+ }
+@media screen and (max-width:1000px) {
+    .home_wrapper{ 
+        height:100%;
+        }
+    .menu_wrapper .img-fluid{
+        width:100%;
+        height: 30rem;
+        }
+        .product_wrapper .parent {
+            display: flex;
+            flex-direction: column;
+        }
+
+       
 }

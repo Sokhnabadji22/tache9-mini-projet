@@ -12,65 +12,62 @@
 <body>
     <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href=""><img src="images/Vaiseille-transparant.png" class="img-fluid" alt=""></a>
+          <a class="navbar-brand col-md-3" href=""><img src="images/Vaiseille-transparant.png" class="img-fluid" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          <div class="collapse navbar-collapse justify-content-center align-items-center col-md-9" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-lg-0  col-md-4 m-auto">
+              <li class="nav-item px-2 fw-light">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active " href="#about">About</a>
+              <li class="nav-item px-2 fw-light">
+                <a class="nav-link active " href="index.html">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active " href="#menu">Menu</a>
+              <li class="nav-item px-2 fw-light">
+                <a class="nav-link active " href="index.html">Menu</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active " href="#product">Product</a>
+              <li class="nav-item px-2 fw-light">
+                <a class="nav-link active " href="product.html">Product</a>
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link active " href="#gallary">Gallary</a>
-              </li> -->
-              <li class="nav-item">
-                <a class="nav-link active " href="#contact">Contact</a>
+              <li class="nav-item px-2 fw-light">
+                <a class="nav-link active " href="contact.html">Contact</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active " href="#blogs">Blogs</a>
+              <li class="nav-item px-2 fw-light">
+                <a class="nav-link active " href="blogs.html">Blogs</a>
               </li>
             </ul>
-             <form class="d-flex ms-3" role="search">
+             <form class="d-flex ms-3 col-md-3 m-auto " role="search">
                <div class="double">
                 <input class="test" type="search" placeholder="Search" aria-label="Search">
                 <i class="fa-solid fa-magnifying-glass"></i>
                </div>
             </form> 
-          </div>
-        </div>
-        <div class="icon d-flex justify-content-end flex-row">
-            <ul class="d-flex flex-row me-5">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <i class="fa-solid fa-user text-warning"></i>
+           <div class="icon d-flex justify-content-end col-md-2">
+            <ul class="d-flex flex-row">
+                <li class="nav-item dropdown px-1">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" 
+                  aria-expanded="false"><i class="fa-solid fa-user text-warning"></i>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Login</a></li>
-                    <li><a class="dropdown-item" href="#">Register</a></li>
+                    <li><a class="dropdown-item" href="connexion-inscription.html">Login</a></li>
+                    <li><a class="dropdown-item" href="connexion-inscription.html">Register</a></li>
                   </ul>
                 </li>
-                <li class="nav-item ms-3 text-danger">
+                <li class="nav-item ms-3 text-danger px-1">
                   <a class="nav-link disabled " aria-disabled="true">
                       <i class="fa-solid fa-cart-shopping"></i>
                   </a>
                 </li>
-                <li class="nav-item  ms-3">
+                <li class="nav-item  ms-3 px-1">
                   <a class="nav-link disabled" aria-disabled="true">
                       <i class="fa-solid fa-heart text-warning"></i>
                   </a>
                 </li>
             </ul>
+          </div>
+        </div>
       </div>
       </nav>
       <!-- ----------------------fin---navbar---------------------------- -->
@@ -79,7 +76,7 @@
       <section id="home" class="home_wrapper mt-5">
         <div class="container-fluid mt-5">
           <div class="row">
-            <div class="col-md-4 img-about mt-5">
+            <div class="col-12 col-md-5 img-about mt-5">
                 <h1 class=" text-center mt-5 text-warning fst-italic">Ma Vaisselle</h1>
                 <p class=" fs-4 pt-4">Ma Vaisselle est une site qui vent et fornie de la vaisselle. <br>
                     Notre site fornie de diver articles  comme les tasses, les verres des assiettes, des marmites ect...
@@ -120,20 +117,20 @@
         <!-- SECTION TOP-CARDS -->
         <div class="fw-bold text-center fs-2 p-5">Top <span  class="text-warning">Categories</span></div>
         <div class="container-fluid">
-          <div class="row d-flex ">
-            <div class="col-md-4 py-3 py-md-0">
-              <div class="card">
-                <img src="images/image2.jpg" class="img-fluid" alt="">
+          <div class="row w-100 mx-auto">
+            <div class="col-12 col-md-4 py-3 py-md-0">
+              <div class="mx-auto w-100 text-center">
+                <img src="images/image2.jpg" class="img-fluid text-center " alt="">
               </div>
             </div>
-            <div class="col-md-4 py-3 py-md-0">
-              <div class="card">
-                <img src="images/image3.jpg"  class="img-fluid" alt="">
+            <div class="col-12 col-md-4 py-3 py-md-0">
+              <div class="mx-auto w-100 text-center">
+                <img src="images/image3.jpg"  class="img-fluid text-center" alt="">
               </div>
             </div>
-            <div class="col-md-4 py-3 py-md-0">
-              <div class="card">
-                <img src="images/image4.jpg" class="img-fluid" alt="">
+            <div class="col-12 col-md-4 py-3 py-md-0">
+              <div class="mx-auto w-100 text-center">
+                <img src="images/image4.jpg" class="img-fluid text-center " alt="">
               </div>
             </div>
           </div>
@@ -141,14 +138,14 @@
       </section>
        <!-- ----------------------fin---about---------------------------- -->
        <!-- ----------------------section---menu---------------------------- -->
-       <section id="menu" class="menu_wrapper">
-          <div class="container-fluid">
-            <div class="fw-bold text-center fs-2 p-5">Top <span  class="text-warning">Menu</span>
+       <section id="menu" class="menu_wrapper ">
+          <div class="container-fluid py-3 mx-0">
+            <div class="fw-bold text-center fs-2 py-5">Top <span  class="text-warning">Menu</span>
             </div>
             <div id="carouselExampleDark" class="carousel carousel-dark slide">
               <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                  <div class=" d-none d-md-block position-absolute texto">
+                <div class="carousel-item active position-relative text-center" data-bs-interval="10000">
+                  <div class=" position-absolute  mt-5 ms-5 pt-5 ps-5  texto">
                     <h4 class="fs-3 text-warning">sale offer 50% off this week</h4>
                     <h1>linen oven gloves</h1>
                     <h2>in the kitchen</h2>
@@ -157,8 +154,8 @@
                   </div>
                   <img src="images/home1-slide1.webp" class="d-block w-100 img-fluid" alt="...">
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                  <div class=" d-none d-md-block position-absolute texto">
+                <div class="carousel-item position-relative text-center" data-bs-interval="2000">
+                  <div class=" position-absolute  mt-5 ms-5 pt-5 ps-5  texto">
                     <h4 class="fs-3 text-warning">sale offer 10% off this week</h4>
                     <h1>canvas cross back</h1>
                     <h2>apron collection</h2>
@@ -167,8 +164,8 @@
                   </div>
                   <img src="images/home1-slide3.webp" class="d-block w-100 img-fluid" alt="...">
                 </div>
-                <div class="carousel-item">
-                  <div class=" d-none d-md-block position-absolute texto">
+                <div class="carousel-item position-relative text-center">
+                  <div class=" position-absolute  mt-5 ms-5 pt-5 ps-5  texto">
                     <h4 class="fs-3 text-warning">sale offer 20% off this week</h4>
                     <h1>serving dishes</h1>
                     <h2>& mugs</h2>
@@ -189,7 +186,65 @@
             </div>
           </div>
        </section>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <!-- ----------------------fin---menu---------------------------- -->
+      
+        
+     <!-- -----------------------------footer---------------------------- -->
+     <footer id="footer" class="footer_wrapper bg-body-secondary mt-5 ">
+      <div class="container pt-5">
+        <div class="row text-center">
+          <div class="col-12 col-md-3">
+            <h5 class="text-warning fw-bold">COMPANY NAME</h5>
+            <p class="fw-light">Here you can use rows and columns to organize your footer content.
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-12 col-md-3 list-unstyled">
+          <h5 class="text-warning fw-bold">PRODUCTS</h5> 
+            <a href="" class="text-dark">
+                <ul>
+              <li class="list-unstyled fw-light">MDBootstrap</li>
+              <li class="list-unstyled fw-light">MDWordPress</li>
+              <li class="list-unstyled fw-light">BrandFlow</li>
+              <li class="list-unstyled fw-light">Bootstrap Angula</li>
+            </ul>
+          </a>
+          </div>
+          <div class="col-12 col-md-3">
+            <h5 class="text-warning fw-bold"> USEFUL LINKS</h5> 
+            <a href="" class="text-dark">
+              <ul class="">
+                <li class="list-unstyled fw-light">Your Account</li>
+                <li class="list-unstyled fw-light">Become an Affiliate</li>
+                <li class="list-unstyled fw-light">Shipping Rates</li>
+                <li class="list-unstyled fw-light"> Hel </li>
+              </ul>
+            </a>
+          </div>
+          <div class="col-12 col-md-3">
+            <h5 class="text-warning fw-bold">CONTACT</h5>
+              <p><i class="fas fa-home mr-3 text-warning"></i> New York, NY 10012, US</p>
+              <p><i class="fas fa-envelope mr-3 text-warning"></i> info@gmail.com</p>
+              <p><i class="fas fa-phone mr-3 text-warning"></i> + 221 77 250 00 00</p>
+              <p><i class="fas fa-print mr-3 text-warning"></i> + 221 33 840 25 25</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row text-center">
+          <div class="col-12 col-md-6">
+            <p>© 2020 Copyright: <a href="#" class="text-warning">MDBootstrap.com</a></p>
+          </div>
+          <div class="col-12 col-md-6 text-end">
+           <a href="#"  class="text-warning "><i class="fa-solid fa-house px-2 fs-4 "></i></a> 
+           <a href="#" class="text-warning "><i class="fa-brands fa-twitter px-2 fs-4 "></i></a>
+           <a href="#" class="text-warning "><i class="fa-brands fa-google px-2 fs-4 "></i></a>
+           <a href="#" class="text-warning "><i class="fa-brands fa-instagram px-2 fs-4 "></i></a>
+          </div>
+        </div>
+      </div>
+     </footer>
+      <!-- -------------------------fin----footer---------------------------- -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
